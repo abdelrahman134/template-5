@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+
+     
+</head>
+<body>
+       <div class="navbar">
+        <nav>
+      <div class="small">
+            <i class="fas fa-bars "></i>
+      
+            <ul class="navlinks ">
+                <li><a class="nav-item" href="home.html">Home</a></li>
+                <li><a class="nav-item" href="product.html">Product</a></li>
+                <li><a class="nav-item" href="about.html">About</a></li>
+
+            </ul>
+            </div>
+            <img src="./images/logo-black.svg" alt="" class="logo">
+        <div class="cart">
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-count">1</span>
+        </div>
+        </nav>
+</div>
+    <div class="section">
+        <div class="filter-form">
+            <form action="">
+                <input type="search" placeholder="search" class="search">
+                <label for="price">Price</label>
+                <input type='range' id="price" name='price' class="price-scroll" min="0" max="50" step="5">
+            </form>
+            <h5 class="title">comapany</h5>
+            <div class="companies">
+            <h5 class="title">comapany</h5>
+            <!-- <div class="companies"><button class="btn-company " data-id="all">all</button>
+        <button class="btn-company " data-id="ikea">ikea</button>
+        <button class="btn-company " data-id="marcos">marcos</button>
+        <button class="btn-company " data-id="caressa">caressa</button>
+        <button class="btn-company " data-id="liddy">liddy</button>
+         -->
+        </div>
+            </div>
+
+        
+        <div class="filter-product">
+  <!-- <div class="product">
+<img src=   'https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg',alt="">
+<h3 class="product-name">high-back bench</h3>
+<p class="price">9.99</p>
+</div> -->
+            
+        </div>
+    </div>
+    <div class="cart-overlay">
+    <div class="orders">
+           <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+         
+          <h3 class="text-slanted">your bag</h3>
+  <div class="cart-items">
+        
+  
+ 
+</div>     
+<div class="checkout-content">
+  <p class="total">total : $341.91</p>
+<button class="checkout">checkout</button>
+ </div>
+</div>
+</div>
+    <script src="js/products.js"></script>
+<script src="js/nav.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
